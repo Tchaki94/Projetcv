@@ -1,0 +1,180 @@
+.page {
+	display: flex;
+	width: 35%;
+	height: 100%;
+	margin: auto;
+	border: 1px black solid;
+    background-color:#FAFAFA;
+    font-size: 10px;
+    font-family: 'Oswald', cursive;
+}
+body {
+	background-color: #212121;
+}
+.colonne-gauche {
+	width: 45%;
+	background-color:#64DD17;
+}
+.colonne-gauche p{
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: -5px;
+}
+img {
+	width: 60%;
+	border: 3px #76FF03 solid;
+	border-radius: 100%;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+h2{
+	width: 100%;
+	border: 0px #263238 solid;
+	background: #263238 ;
+	color: #64DD17;
+	text-align: center;
+	font-size: 18px;
+}
+.contact {
+	margin-top: 20px;
+}
+.info {
+	margin-top: 40px;
+}
+.logo i {
+	border: 1px #263238 solid;
+	border-radius: 100%;
+	margin-left: 20px;
+}
+.loisirs{
+	margin-top: 240px;
+	margin-bottom: 20px;
+}
+i {
+	color: #263238;
+}
+
+.colonne-droite {
+	width: 100%;
+	background-color: #ffffe6;
+}
+.colonne-droite p {
+	margin-top: 15px;
+}
+.souligne{
+	border-bottom: 1px #64DD17 solid;
+}
+h1{
+	font-size: 35px;
+	margin-top: 55px;
+}
+h3{
+	margin-right: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: -0.5px;
+}
+.nom{
+	color: #64DD17;
+	margin-left: 20px;
+}
+.formation {
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.formation i {
+	color: #64DD17;
+}
+.form {
+	margin-left: 20px;
+}
+.date-exp {
+	display: flex;
+	width: 95%;
+	flex-direction: column;
+	border-top:1px #64DD17 solid;
+	padding-top: 10px;
+}
+.date1 {
+	width: 50%;
+}
+.date2 {
+	width: 70%;
+}
+.forma1 {
+	display: flex;
+}
+.forma2 {
+	display: flex;
+}
+.experiencepro {
+	margin-left: 30px;
+	margin-top: 80px;
+}
+.experiencepro i {
+	color:#64DD17; 
+}
+.date3 {
+	width: 45%;
+}
+.date4 {
+	width: 35%;
+}
+.date-societe{
+	display: flex;
+	width: 95%;
+	flex-direction: column;
+	border-top:1px #64DD17 solid;
+}
+.allsociete{
+	display: flex;
+	width: 95%;
+	border-top:1px #64DD17 solid;
+}
+.recommandation {
+	margin-top: 80px;
+	margin-left: 30px;
+}
+.recommandation i {
+	color: #64DD17;
+}
+.ref1 {
+	margin-top: 10px;
+}
+.ref2{
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.puce i {
+	border: 1px #64DD17 solid;
+	border-radius: 100%;
+	color:#64DD17;
+	margin-top: 22px;
+	margin-right: 10px;
+
+}
+.text1 p {
+	margin-top: -25px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+@media screen and (max-width: 768px)
+{
+	.page {
+		width: 100%;
+		flex-direction: column;
+	}
+	.colonne-gauche {
+		width: 100%;
+	}
+	img {
+		width: 20%;
+		display: block;
+		margin: auto;
+	}
+	.logo {
+		margin-left: 185px;
+	}
+
+}
